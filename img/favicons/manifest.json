@@ -1,0 +1,20 @@
+{
+	"name": "ManuEl Geek",
+	 "short_name": "ManuEl Geek",
+	"icons": [
+		{
+			"src": "img/favicons/android-chrome-36x36.png",
+			"sizes": "36x36",
+			"type": "image/png"
+		},
+		{
+			"src": "img/favicons/android-chrome-48x48.png",
+			"sizes": "48x48",
+			"type": "image/png"
+		}
+	],
+	"start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00A8FF"
+}
