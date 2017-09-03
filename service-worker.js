@@ -15,35 +15,35 @@
 //Cache polyfil to support cacheAPI in all browsers
 importScripts('cache-polyfill.js');
 
-var dataCacheName = 'weatherData-v1';
-var cacheName = 'weatherPWA-final-1';
+var dataCacheName = 'manuel';
+var cacheName = 'manu';
 var filesToCache = [
-  './',
-  './index.html',
-  './img/favicons/apple-touch-icon-57x57.png',
-  './img/favicons/apple-touch-icon-60x60.png',
-  './img/favicons/favicon-32x32.png',
-  './img/favicons/favicon-16x16.png',
-  './img/favicons/apple-touch-icon.png',
-  './img/favicons/apple-touch-icon.png',
-  './css/normalize.css',
-  './css/bootstrap.css',
-  './css/owl.css',
-  './css/animate.css',
-  './fonts/font-awesome-4.1.0/css/font-awesome.min.css',
-  './fonts/eleganticons/et-icons.css',
-  './css/cardio.css',
-  './js/jquery-1.11.1.min.js',
-  './js/owl.carousel.min.js',
-  './js/bootstrap.min.js',
-  './js/wow.min.js',
-  './js/typewriter.js',
-  './js/jquery.onepagenav.js',
-  './js/main.js',
-  './js/app.js',
-  './img/favicons/android-chrome-48x48.png',
-  './img/favicons/android-chrome-36x36.png',
-  './manifest.json'
+  '/',
+  'index.html',
+  'img/favicons/apple-touch-icon-57x57.png',
+  'img/favicons/apple-touch-icon-60x60.png',
+  'img/favicons/favicon-32x32.png',
+  'img/favicons/favicon-16x16.png',
+  'img/favicons/apple-touch-icon.png',
+  'img/favicons/apple-touch-icon.png',
+  'css/normalize.css',
+  'css/bootstrap.css',
+  'css/owl.css',
+  'css/animate.css',
+  'fonts/font-awesome-4.1.0/css/font-awesome.min.css',
+  'fonts/eleganticons/et-icons.css',
+  'css/cardio.css',
+  'js/jquery-1.11.1.min.js',
+  'js/owl.carousel.min.js',
+  'js/bootstrap.min.js',
+  'js/wow.min.js',
+  'js/typewriter.js',
+  'js/jquery.onepagenav.js',
+  'js/main.js',
+  'js/app.js',
+  'img/favicons/android-chrome-48x48.png',
+  'img/favicons/android-chrome-36x36.png',
+  'manifest.json'
 ];
 
 self.addEventListener('install', function(e) {
